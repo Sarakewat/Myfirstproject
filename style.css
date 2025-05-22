@@ -1,0 +1,79 @@
+#navbar{
+    width: 100%;
+    /* width: 1450px; */
+    border: 2px solid black;
+    background-color: rgb(240, 112, 6);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-decoration: none;
+}
+#navbar nav ul{
+    display: flex;
+    gap: 100px;
+    list-style-type: none;
+    font-size: 20px;
+    /* font-style: italic; */
+    /* justify-content: space-between; */
+
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    /* gap: right 20px; */
+}
+.image{
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition: ; */
+
+}
+.h1 {
+    width: 1450px;
+    font-size: 20px;
+
+    /* height: 40px; */
+    color: tomato;
+    text-align: center;
+    /* background-color: rgb(235, 110, 8); */
+}
+/* .image1{
+    width: 1000px;
+    /* height: 200px; */
+    /* display: flex ; */
+    /* justify-content: center ;  */
+/* } */
+.container{
+    display:grid ;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid black; */
+    /* width: 200px;
+    height: 400px; */
+}
+.box1 {
+    background-image:;
+    border: 1px solid black;
+    width: 500px;
+} 
+.para1{
+    
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.container1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    /* gap: 20px;
+/* 
+    }
+.box12{
+    height: 2px;
+    width: 1px;
+}     */}

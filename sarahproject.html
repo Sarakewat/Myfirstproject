@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern Book Website</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Header/Navbar -->
+  <header class="bg-orange-600 text-white px-6 py-4 flex flex-col md:flex-row justify-between items-center shadow-md">
+    <!-- Logo -->
+    <div class="flex items-center gap-3 mb-4 md:mb-0">
+    
+
+      <img src="pexels-te-lensfix-380994-1371360.jpg" alt="Logo" class="w-12 h-12 rounded-full object-cover" />
+      <h1 class="text-xl font-semibold">Good Read</h1>
+    </div>
+
+    <!-- Navigation + Search -->
+    <nav class="flex flex-col md:flex-row items-center gap-4">
+      <ul class="flex gap-6 text-lg font-medium">
+        <li><a href="#" class="hover:underline">Home</a></li>
+        <li><a href="#" class="hover:underline">My Books</a></li>
+      </ul>
+      <div class="flex items-center gap-2 mt-2 md:mt-0">
+        <input type="text" placeholder="Search for books" class="px-3 py-1 rounded-md text-black w-48 md:w-64" />
+        <button class="bg-black text-white px-3 py-1 rounded-md">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Contact -->
+    <div class="flex items-center gap-3 mt-4 md:mt-0">
+      <i class="fa-solid fa-phone text-xl"></i>
+      <p class="text-sm md:text-base">
+        <strong></strong> <a href="tel:9669544646" class="hover:underline">9669544646</a>
+      </p>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-16 px-4 bg-gradient-to-r from-orange-500 to-yellow-400 text-white">
+    <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
+      Get Started<br class="hidden md:block" />Reading with Your Choice
+    </h1>
+    <p class="text-lg md:text-xl mt-2 font-light">Explore your favorite genres and discover new books!</p>
+  </section>
+
+  <!-- Category Section -->
+  <section class="py-12 px-4 ">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+     
+
+<div class="bg-white p-6 rounded-lg shadow hover:shadow-lg hover:bg-blue-600 transition group cursor-pointer">
+  <p class="text-center text-xl font-semibold text-orange-600 group-hover:text-white transition">
+    Horror
+  </p>
+</div>
+
+<div class="bg-white p-6 rounded-lg shadow hover:shadow-lg hover:bg-blue-600 transition group cursor-pointer">
+  <p class="text-center text-xl font-semibold text-orange-600 group-hover:text-white transition">
+    Romantic
+  </p>
+</div>
+
+<div class="bg-white p-6 rounded-lg shadow hover:shadow-lg hover:bg-blue-600 transition group cursor-pointer">
+  <p class="text-center text-xl font-semibold text-orange-600 group-hover:text-white transition">
+    Comics
+  </p>
+</div>
+
+
+     
+    </div>
+  </section>
+
+</body>
+</html>
